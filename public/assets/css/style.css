@@ -1,0 +1,20 @@
+label.label-prize {
+    cursor: pointer;
+    /* filter: grayscale(100%); */
+}
+
+label.label-prize:hover {
+    border: 2px solid red;
+}
+
+input[type="radio"]:checked+label.label-prize {
+    /* filter: grayscale(100%); */
+    border: 2px solid red;
+}
+
+
+/* Label for stockless prizes */
+
+label.grayscale {
+    filter: grayscale(100%);
+}
